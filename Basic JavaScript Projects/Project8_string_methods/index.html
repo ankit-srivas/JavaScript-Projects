@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods Example</title>
+</head>
+<body>
+
+    <h1>String Methods Example</h1>
+
+    <!-- HTML elements to call and display the results of the functions -->
+    <p id="concatResult"></p>
+    <p id="sliceResult"></p>
+    <p id="toStringResult"></p>
+    <p id="toPrecisionResult"></p>
+
+    <!-- Include the script tag to refer to the main.js file -->
+    <script src="JS/main.js"></script>
+
+    <script>
+        // Call the functions and display the results
+        document.getElementById("concatResult").innerHTML = useConcat();
+        document.getElementById("sliceResult").innerHTML = useSlice();
+        document.getElementById("toStringResult").innerHTML = useToString();
+        document.getElementById("toPrecisionResult").innerHTML = useToPrecision();
+    </script>
+
+</body>
+</html>

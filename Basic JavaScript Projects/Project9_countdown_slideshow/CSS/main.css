@@ -1,0 +1,21 @@
+/* External CSS file for styling the countdown and slideshow */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.countdown-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slideshow-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
